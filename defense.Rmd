@@ -1,0 +1,44 @@
+---
+title: "how do we understand natural selection?"
+subtitle: ""
+author: "Lucy Delaney"
+institute: "University of Illinois at Chicago"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css:
+      - css/manual-fonts.css
+      - css/mytheme.css
+    nature:
+      highlightStyle: monokai
+      highlightLines: true
+      ratio: "4:3"
+      countIncrementalSlides: false
+---
+
+```{r metathis, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "ledelaney/10-21-Defense") %>% 
+  meta_social(
+    title = "how do we understand natural selection?",
+    description = paste(
+      "Dissertation defense presented at University of Illinois at Chicago, October 2021"
+    ),
+    url = "https://ledelaney.org/talks/2021ucr/",
+    image = "https://ledelaney.org/talks/2021ucr/css/images/08-21-ucr-card.png",
+    image_alt = paste(
+      "Title slide of how do we understand natural selection?", 
+      "Dissertation defense presented at University of Illinois at Chicago, October 2021", 
+      "by Lucy Delaney"
+    ),
+    og_type = "website",
+    og_author = "Lucy Delaney",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@emergentyLucy",
+    twitter_site = "@emergentlyLucy"
+  )
+```
+
+class: right, middle, title-slide
