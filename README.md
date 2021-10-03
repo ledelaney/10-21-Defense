@@ -1,4 +1,4 @@
-![]()
+![](css/images/img/lucy-flyer-short.png)
 
 🎞️ [View Slide Deck](https://ledelaney.org/talks/2021defense/)
 
