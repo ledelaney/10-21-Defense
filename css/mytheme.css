@@ -150,6 +150,26 @@ line-height: normal;
 
 /* title slide */
 
+.bg_grapes {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_grapes::before {
+  content: "";
+  background-image: url('images/bg/grapes.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f8f6f3;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
 .bg_citrus {
   position: relative;
   z-index: 1;
@@ -171,6 +191,27 @@ line-height: normal;
 }
 
 /* slide one: main points */
+
+.bg_rasp {
+  position: relative;
+  z-index: 1;
+  background-color: #f6f3f1;
+}
+
+.bg_rasp::before {    
+  content: "";
+  background-image: url('images/bg/raspberry.jpg');
+  background-size: 30%;
+  background-color: #f6f3f1;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
 
 .bg_walnut {
   position: relative;
@@ -734,7 +775,7 @@ line-height: normal;
 .bg_tamarind {
   position: relative;
   z-index: 1;
-  background-color: #ece4d5;
+  background-color: #e8e2d1;
 }
 
 .bg_tamarind::before {    
@@ -742,7 +783,7 @@ line-height: normal;
       background-image: url('images/bg/tamarind.jpg');
       background-size: contain;
       background-repeat: no-repeat;
-      background-color: #E8E3D2;
+      background-color: #e8e2d1;
       position: absolute;
       top: 0px;
       right: 0px;
@@ -755,7 +796,7 @@ line-height: normal;
 .bg_peanut {
   position: relative;
   z-index: 1;
-  background-color: #F3E9DE;
+  background-color: #f3ede2;
 }
 
 .bg_peanut::before {    
@@ -763,7 +804,7 @@ line-height: normal;
       background-image: url('images/bg/peanut.jpg');
       background-size: 560px;
       background-repeat: no-repeat;
-      background-color: #F3E9DE;
+      background-color: #f3ede2;
       position: absolute;
       top: 0px;
       right: 0px;
@@ -776,7 +817,7 @@ line-height: normal;
 .bg_ceratonia {
   position: relative;
   z-index: 1;
-  background-color: #F8F4ED;
+  background-color: #f6f3ee;
 }
 
 .bg_ceratonia::before {    
@@ -784,7 +825,7 @@ line-height: normal;
       background-image: url('images/bg/ceratonia.jpg');
       background-size: contain;
       background-repeat: no-repeat;
-      background-color: #F8F4ED;
+      background-color: #f6f3ee;
       position: absolute;
       top: 0px;
       right: 0px;

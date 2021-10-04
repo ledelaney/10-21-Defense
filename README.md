@@ -1,4 +1,4 @@
-![](css/images/img/lucy-flyer-short.png)
+![Skeleton image commissioned from `@unfgio`.](css/images/img/lucy-flyer-short.png)
 
 🎞️ [View Slide Deck](https://ledelaney.org/talks/2021defense/)
 
@@ -34,3 +34,4 @@ Originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), a
 + [Tamarind (_Tamarindus indica_) illustration from Medical Botany (1836) by John Stephenson](https://www.rawpixel.com/image/327219/free-illustration-image-watercolor-flower-botanical-1800s)
 + [St John's Bread (_Ceratonia siliqua_ L.) (1907) by Deborah Griscom Passmore](https://www.rawpixel.com/image/2286914/free-illustration-image-legumes-vintage-vintage-food)
 + [_Arachis hypogaea_](https://www.flickr.com/photos/biodivlibrary/34657192156/in/photolist-2kLgnTf-2khPD7A-2khQ8gN-h9mNJZ-UNxaMN-UnXTp4-Sf719u-2eoetHk-d7te3d-h9mQ9n-h9jEeM-Uo7fDx-2dhaiWw-UnV8CR-h9kXkm-ab9o48-danZUP-QBVn5c-2khKU2v-dwq2WD-dwvyM3-abcc4U-dao4YG-dao3pk-2cZpL3z-abckFU-axe56s-h9bVcm-h9nwx8-h9bYem-UjHmru-UmfVUT-2cZpEit-VmMTYs-VmZfDo-axe4WQ-dao4xw-VkgFHb-2cZpK7X-dao19K-VwiVd1-dH5HvT-h9d9TY-h9bG95-dao3vn-2dhakgW-2eoeuf2-dH5u6Z-dHaU1j-danZpT/)
++ [Orchid flower, public domain image from Wikimedia Commons](https://www.rawpixel.com/image/3337615/free-photo-image-orchid-flower-botanical-flowers)
