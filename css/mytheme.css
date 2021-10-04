@@ -200,8 +200,8 @@ line-height: normal;
 
 .bg_rasp::before {    
   content: "";
-  background-image: url('images/bg/raspberry.jpg');
-  background-size: 30%;
+  background-image: url('images/bg/raspberry.png');
+  background-size: 50%;
   background-color: #f6f3f1;
   background-repeat: no-repeat;
   position: absolute;
@@ -745,17 +745,17 @@ line-height: normal;
 .bg_4citrus::before {    
   content: "";
   background-image: url('images/bg/4-citrus.png');
-  background-size: 95%;
+  background-size: 53%;
   background-repeat: no-repeat;
   background-color: #f7f6f4;
   position: absolute;
-  top: 0px;
+  top: 10px;
   right: 0px;
   bottom: 0px;
-  left: 540px;
+  left: 0px;
   opacity: 1;
   z-index: -1;
-  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
 }
 
 .pomstext {
@@ -780,7 +780,7 @@ line-height: normal;
 
 .bg_tamarind::before {    
       content: "";
-      background-image: url('images/bg/tamarind.jpg');
+      background-image: url('images/bg/tamarind.png');
       background-size: contain;
       background-repeat: no-repeat;
       background-color: #e8e2d1;
@@ -801,15 +801,15 @@ line-height: normal;
 
 .bg_peanut::before {    
       content: "";
-      background-image: url('images/bg/peanut.jpg');
-      background-size: 560px;
+      background-image: url('images/bg/peanut.png');
+      background-size: 35%;
       background-repeat: no-repeat;
       background-color: #f3ede2;
       position: absolute;
       top: 0px;
       right: 0px;
       bottom: 0px;
-      left: 700px;
+      left: 0px;
       opacity: 1;
       z-index: -1;
 }
@@ -822,7 +822,7 @@ line-height: normal;
 
 .bg_ceratonia::before {    
       content: "";
-      background-image: url('images/bg/ceratonia.jpg');
+      background-image: url('images/bg/ceratonia.png');
       background-size: contain;
       background-repeat: no-repeat;
       background-color: #f6f3ee;
@@ -841,7 +841,7 @@ line-height: normal;
 /*-- LINK STYLING --*/
 
 a {
-  color:              #df6311;
+  color:              #dd8073;
   border-bottom:      0px;
   text-decoration: none;
   line-height:        1.5em;
@@ -868,7 +868,7 @@ a:hover {
 
 .remark-slide-content h3 {
   font-size:          28px;
-  color:              #df6311;
+  color:              #904978;
   line-height: normal;
   font-family: 'Roboto Condensed', sans-serif;
 }

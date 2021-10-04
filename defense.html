@@ -27,17 +27,16 @@
     <link rel="stylesheet" href="css/mytheme.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d350c46f41.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <textarea id="source">
 
-class: right, middle, title-slide, bg_citrus
+class: right, middle, title-slide, bg_4citrus
 
 <h2>how do we understand natural selection?</h2>
 
-<br>
-
-<h3>&ldquo;everything existing in the universe is the fruit of chance and necessity.&rdquo;<br>&mdash;Democritus</h3>
+<!-- <h3>by lucy delaney<br>university of illinois at chicago</h3> -->
 
 <br/>
   
@@ -97,7 +96,7 @@ class: left, middle, bg_pom
 class: right, middle, bg_plum
 
 ---
-class: left, middle, bg_4citrus
+class: left, middle, bg_grapes
 
 ---
 class: middle, right, bg_ceratonia
@@ -220,6 +219,33 @@ slideshow._releaseMath = function(el) {
 };
 slideshow._releaseMath(document);
 </script>
+<style>
+.logo {
+  background-image: url("css/images/bios-logo-red.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 110px;
+  height: 128px;
+  z-index: 0;
+}
+</style>
+<script>
+document
+  .querySelectorAll(
+    '.remark-slide-content' +
+    ':not(.title-slide)' +
+    // add additional classes to exclude here, e.g.
+    // ':not(.inverse)' +
+    ':not(.hide-logo)'
+  )
+  .forEach(el => {
+    el.innerHTML += '<div class="logo"></div>';
+  });
+</script>
+
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
 (function () {
