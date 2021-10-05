@@ -190,6 +190,29 @@ line-height: normal;
       z-index: -1;
 }
 
+
+
+.bg_straw2 {
+  position: relative;
+  z-index: 1;
+  background-color: #efeee9;
+}
+
+.bg_straw2::before {    
+  content: "";
+  background-image: url('images/bg/straw3.png');
+  background-size: 50%;
+  background-color: #efeee9;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
 /* slide one: main points */
 
 .bg_rasp {
@@ -837,11 +860,10 @@ line-height: normal;
 
 
 
-
 /*-- LINK STYLING --*/
 
 a {
-  color:              #dd8073;
+  color:              #b91820;
   border-bottom:      0px;
   text-decoration: none;
   line-height:        1.5em;
@@ -868,7 +890,7 @@ a:hover {
 
 .remark-slide-content h3 {
   font-size:          28px;
-  color:              #904978;
+  color:              #dd8073;
   line-height: normal;
   font-family: 'Roboto Condensed', sans-serif;
 }
