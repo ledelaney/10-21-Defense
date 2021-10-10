@@ -90,36 +90,16 @@ line-height: normal;
 
 /* TITLE SLIDE STYLE */
 
-.title-slide h2 {
+.title-slide h1 {
   position: absolute;
-  top: 90px;
-  right: 18px;
-  width: 50%;
-
-}
-
-.title-slide h3 {
-  position: relative;
-  width: 48%;
-  top:  0px;
-  left: 440px;
-
-}
-
-.title-slide h4 {
-  position: relative;
-  width: 48%;
-  top:  0px;
-  left: 440px;
-  color: #4b6640;
-  font-style: italic;
-  font-size: 70%;
+  top: -10px;
+  left: 30px;
 
 }
 
 .contact {
   position: relative;
-  top: 20px;
+  bottom: 160px;
   left: 580px;
 }
 
@@ -149,6 +129,29 @@ line-height: normal;
 /*-- BACKGROUNDS AND SPECIFIC SLIDE STYLING --*/
 
 /* title slide */
+
+.bg_skeleton {
+  position: relative;
+  z-index: 1;
+  background-color: #f8f6f3;
+}
+
+.bg_skeleton::before {
+  content: "";
+  background-image: url('images/bg/skeleton.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-color: #f8f6f3;
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  bottom: 0px;
+  left: 90px;
+  opacity: 1;
+  z-index: -1;
+}
+
+
 
 .bg_grapes {
   position: relative;
@@ -883,7 +886,7 @@ a:hover {
 
 .remark-slide-content h2 {
   font-size:          35px;
-  color:              #4b6640;
+  color:              #a566a1;
   line-height:        1em;
   font-family: Fira;
 }
@@ -891,6 +894,7 @@ a:hover {
 .remark-slide-content h3 {
   font-size:          28px;
   color:              #dd8073;
+  /* f38491 */
   line-height: normal;
   font-family: 'Roboto Condensed', sans-serif;
 }
