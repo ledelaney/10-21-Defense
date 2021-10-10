@@ -1,4 +1,4 @@
-![Skeleton image commissioned from `@unfgio`.](css/images/img/lucy-flyer-short.png)
+![Skeleton image commissioned from `@unfgio`.](css/images/10-21-defense-card.png)
 
 🎞️ [View Slide Deck](https://ledelaney.org/talks/2021defense/)
 
