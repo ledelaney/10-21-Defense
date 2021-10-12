@@ -13,6 +13,7 @@ Libraries and preliminary `HTML` file created with the R package `xaringan`, bui
 
 Originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), an incredible resource of public domain images. (Found trawling the GitHub pages of [@apreshill](https://github.com/apreshill).) Many were modified later in Illustrator.
 
++ Skeleton image commissioned from `@unfgio`.
 + [Black Prince Grape vintage illustration](https://www.rawpixel.com/image/2270780/free-illustration-image-artwork-grape-leaf-grapes-botanical-leaves)
 + [Vintage branch of red raspberry illustration from U.S. Department of Agriculture Pomological Watercolor Collection](https://www.rawpixel.com/image/2289523/free-illustration-image-raspberry-berry-fruit)
 + [Vintage oranges illustration from U.S. Department of Agriculture Pomological Watercolor Collection](https://www.rawpixel.com/image/2289587/free-illustration-image-orange-fruit-leaves)
