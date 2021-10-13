@@ -22,6 +22,10 @@
   text-decoration: line-through;
 }
 
+.opaque {
+  opacity: 0.5;
+}
+
 /*-- Spacing --*/
 .pull-left {
   float: left;
@@ -97,34 +101,6 @@ line-height: normal;
 
 }
 
-.contact {
-  position: relative;
-  bottom: 160px;
-  left: 580px;
-}
-
-.title-slide > .fa-github, .fa-twitter {
-  color: #4b6640;
-}
-
-.webpage {
-  position: relative;
-  left: -3px;
-}
-
-.webpage > .fa-address-card, .fa-github {
-  color: #4b6640;
-}
-
-.citation {
-  position: absolute;
-  bottom: 0.6%;
-  left: 1%;
-  font-size: 75%;
-  color: gray;
-
-}
-
 
 /*-- BACKGROUNDS AND SPECIFIC SLIDE STYLING --*/
 
@@ -151,6 +127,35 @@ line-height: normal;
   z-index: -1;
 }
 
+/* slide one: thesis overview */
+
+.bg_rasp {
+  position: relative;
+  z-index: 1;
+  background-color: #f6f3f1;
+}
+
+.bg_rasp::before {    
+  content: "";
+  background-image: url('images/bg/raspberry.png');
+  background-size: 30%;
+  background-color: #f6f3f1;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
+.rasptext{
+  width: 85%;
+  text-align: right;
+  position: relative;
+  left: 150px;
+}
 
 
 .bg_grapes {
@@ -218,26 +223,7 @@ line-height: normal;
 
 /* slide one: main points */
 
-.bg_rasp {
-  position: relative;
-  z-index: 1;
-  background-color: #f6f3f1;
-}
 
-.bg_rasp::before {    
-  content: "";
-  background-image: url('images/bg/raspberry.png');
-  background-size: 50%;
-  background-color: #f6f3f1;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
 
 .bg_walnut {
   position: relative;
@@ -352,9 +338,7 @@ line-height: normal;
   bottom: 0px;
 }
 
-.opaque {
-  opacity: 0.5;
-}
+
 
 .circleBase {
   border-radius: 50%;
