@@ -196,6 +196,57 @@ line-height: normal;
 }
 
 
+/* slide three: chance and necessity  */
+
+.bg_walnut {
+  position: relative;
+  z-index: 1;
+  background-color: #efefef;
+}
+
+.bg_walnut::before {    
+  content: "";
+  background-image: url('images/bg/walnut.jpg');
+  background-size: 30%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 370px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
+
+/* slide four: difficulties understanding ns */
+
+.bg_peach {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_peach::before {    
+  content: "";
+  background-image: url('images/bg/peach.png');
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-color: #f7f6f2;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
+.bg_nopeach {
+  background-color: #f7f6f2;
+}
+
+
+
 
 
 .bg_grapes {
@@ -265,32 +316,7 @@ line-height: normal;
 
 
 
-.bg_walnut {
-  position: relative;
-  z-index: 1;
-  background-color: #efefef;
-}
 
-.bg_walnut::before {    
-  content: "";
-  background-image: url('images/bg/walnut.jpg');
-  background-size: 30%;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 370px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.walnut-text{
-  width: 80%;
-  text-align: right;
-  position: relative;
-  left: 200px;
-}
 
 
 
@@ -452,29 +478,6 @@ line-height: normal;
 
 /* slide six: proximate and ultimate */
 
-.bg_peach {
-  position: relative;
-  z-index: 1;
-}
-
-.bg_peach::before {    
-  content: "";
-  background-image: url('images/bg/peach.png');
-  background-size: 22%;
-  background-repeat: no-repeat;
-  background-color: #f7f6f2;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.bg_nopeach {
-  background-color: #f7f6f2;
-}
 
 /* slide seven: teleological reasoning and framework */
 
