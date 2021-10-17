@@ -293,13 +293,13 @@ line-height: normal;
 }
 
 
-.bg_devil {
+.bg_blood {
   position: relative;
   z-index: 1;
   background-color: #af2c37;
 }
 
-.bg_devil::before {    
+.bg_blood::before {    
   content: "";
   background-image: url('images/bg/blood.png');
   background-size: 22%;
