@@ -357,7 +357,7 @@ a:hover {
 
 /*-- PARAGRAPH TEXT --*/
 .remark-slide-content {
-  font-size:          23px;
+  font-size:          28px;
   line-height:        1em;
   font-family: 'IM Fell English', serif;
   color: #2b2b2b
@@ -471,7 +471,7 @@ td {
 blockquote {
   display: block;
   position: relative;
-  width: 80%;
+  width: 90%;
   margin: 0px 0px 0px 0px;
   border-left: solid 5px #000000;
   padding: 10px;
