@@ -1,4 +1,15 @@
-@import url(fonts/alegreya-sans-sc/alegreya-sans.css)
+@import url(fonts/alegreya-sans-sc/alegreya-sans.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
 
 
 @font-face {

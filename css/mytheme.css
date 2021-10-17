@@ -39,13 +39,6 @@
   clear: both;
 }
 
-.pull-bottom {
-position: absolute;
-top: 620px;
-right: 50px;
-color: #8c8c8c
-}
-
 .pull-low {
 position: relative;
 top: 100px;
@@ -92,24 +85,37 @@ line-height: normal;
 
 
 
-/* TITLE SLIDE STYLE */
+/*-- BACKGROUNDS AND SPECIFIC SLIDE STYLING --*/
 
-.title-slide h1 {
+.bg_fun {
+  position: relative;
+  z-index: 1;
+  background-color: #ddd1ae;
+}
+
+.bg_fun::before {
+  content: "";
+  background-image: url('images/bg-fun.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #ddd1ae;
   position: absolute;
-  top: -10px;
-  left: 30px;
-
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+  z-index: -1;
 }
 
 
-/*-- BACKGROUNDS AND SPECIFIC SLIDE STYLING --*/
 
 /* title slide */
 
 .bg_skeleton {
   position: relative;
   z-index: 1;
-  background-color: #f8f6f3;
+  background-color: #d07b2c;
 }
 
 .bg_skeleton::before {
@@ -117,7 +123,7 @@ line-height: normal;
   background-image: url('images/bg/skeleton.png');
   background-size: 90%;
   background-repeat: no-repeat;
-  background-color: #f8f6f3;
+  background-color: #d07b2c;
   position: absolute;
   top: 100px;
   right: 0px;
@@ -127,22 +133,48 @@ line-height: normal;
   z-index: -1;
 }
 
-/* slide one: thesis overview */
-
-.bg_rasp {
-  position: relative;
-  z-index: 1;
-  background-color: #f6f3f1;
+.stretch{
+  width: 140%;
 }
 
-.bg_rasp::before {    
+.id {
+  position: absolute;
+  bottom: 40%;
+  left: 25%;
+  width: 90%;
+}
+
+.title-slide h1 {
+  position: absolute;
+  top: -10px;
+  left: 30px;
+
+}
+
+.pull-bottom {
+  position: absolute;
+  top: 620px;
+  left: 20px;
+  color: #3d3b3b;
+  font-family: 'Fontdiner Swanky', cursive;
+  }
+
+/* slide one: thesis overview */
+
+.bg_snake {
+  position: relative;
+  z-index: 1;
+  background-color: #ddd1b0;
+}
+
+.bg_snake::before {    
   content: "";
-  background-image: url('images/bg/raspberry.png');
+  background-image: url('images/bg/snake.png');
   background-size: 30%;
-  background-color: #f6f3f1;
+  background-color: #ddd1b0;
   background-repeat: no-repeat;
   position: absolute;
-  top: 0px;
+  top: 520px;
   right: 0px;
   bottom: 0px;
   left: 0px;
@@ -150,29 +182,24 @@ line-height: normal;
   z-index: -1;
 }
 
-.rasptext{
-  width: 85%;
-  text-align: right;
-  position: relative;
-  left: 150px;
-}
+
 
 /* slide two: quotes of antiquity */
 
-.bg_apple {
+.bg_fish {
   position: relative;
   z-index: 1;
-  background-color: #f2f0e7;
+  background-color: #ddd1b0;
 }
 
-.bg_apple::before {    
+.bg_fish::before {    
   content: "";
-  background-image: url('images/bg/apple.png');
-  background-size: 37%;
+  background-image: url('images/bg/fish2.png');
+  background-size: 40%;
   background-repeat: no-repeat;
-  background-color: #f2f0e7;
+  background-color: #ddd1b0;
   position: absolute;
-  top: 430px;
+  top: 530px;
   right: 0px;
   bottom: 0px;
   left: 30px;
@@ -193,45 +220,25 @@ line-height: normal;
   font-size: 65%;
   line-height: 1.3em;
   font-weight: bolder;
-}
-
-
-/* slide three: chance and necessity  */
-
-.bg_walnut {
-  position: relative;
-  z-index: 1;
-  background-color: #efefef;
-}
-
-.bg_walnut::before {    
-  content: "";
-  background-image: url('images/bg/walnut.jpg');
-  background-size: 30%;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 370px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
+  color: #2c3a21;
+  font-family: 'Fontdiner Swanky', cursive;
 }
 
 
 /* slide four: difficulties understanding ns */
 
-.bg_peach {
+.bg_skull {
   position: relative;
   z-index: 1;
+  /* background-color: #d07b2c; */
 }
 
-.bg_peach::before {    
+.bg_skull::before {    
   content: "";
-  background-image: url('images/bg/peach.png');
+  background-image: url('images/bg/skull.png');
   background-size: 22%;
   background-repeat: no-repeat;
-  background-color: #f7f6f2;
+  background-color: #d07b2c;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -241,27 +248,65 @@ line-height: normal;
   z-index: -1;
 }
 
-.bg_nopeach {
-  background-color: #f7f6f2;
-}
 
 
-
-
-
-.bg_grapes {
+.bg_owls {
   position: relative;
   z-index: 1;
+  background-color: #ddd1b0;
 }
 
-.bg_grapes::before {
+.bg_owls::before {    
   content: "";
-  background-image: url('images/bg/grapes.png');
-  background-size: contain;
+  background-image: url('images/bg/owls.png');
+  background-size: 62%;
   background-repeat: no-repeat;
-  background-color: #f8f6f3;
+  background-color: #ddd1b0;
   position: absolute;
-  top: 0px;
+  top: 500px;
+  right: 0px;
+  bottom: 0px;
+  left: 400px;
+  opacity: 1;
+  z-index: -1;
+}
+
+.bg_devil {
+  position: relative;
+  z-index: 1;
+  background-color: #d07b2c;
+}
+
+.bg_devil::before {    
+  content: "";
+  background-image: url('images/bg/devil.png');
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-color: #d07b2c;
+  position: absolute;
+  top: 350px;
+  right: 0px;
+  bottom: 0px;
+  left: 20px;
+  opacity: 1;
+  z-index: -1;
+}
+
+
+.bg_devil {
+  position: relative;
+  z-index: 1;
+  background-color: #af2c37;
+}
+
+.bg_devil::before {    
+  content: "";
+  background-image: url('images/bg/blood.png');
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-color: #af2c37;
+  position: absolute;
+  top: -5px;
   right: 0px;
   bottom: 0px;
   left: 0px;
@@ -269,625 +314,8 @@ line-height: normal;
   z-index: -1;
 }
 
-.bg_citrus {
-  position: relative;
-  z-index: 1;
-}
-
-.bg_citrus::before {    
-      content: "";
-      background-image: url('images/bg/orange.jpg');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-color: #f5f4f0;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 1;
-      z-index: -1;
-}
-
-
-
-.bg_straw2 {
-  position: relative;
-  z-index: 1;
-  background-color: #efeee9;
-}
-
-.bg_straw2::before {    
-  content: "";
-  background-image: url('images/bg/straw3.png');
-  background-size: 50%;
-  background-color: #efeee9;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
-
-/* slide one: main points */
-
-
-
-
-
-
-
-/* slide two: understand and explain */
-
-.bg_avo {
-  position: relative;
-  z-index: 1;
-  background-color: #f7f5ef;
-}
-
-.bg_avo::before {    
-  content: "";
-  background-image: url('images/bg/avo.png');
-  background-size: 95%;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 470px;
-  right: 0px;
-  bottom: 0px;
-  left: 630px;
-  opacity: 1;
-  z-index: -1;
-}
-
-
-.circle {
-  width: 500px;
-  height: 200px;
-  border-style: solid;
-  border-width: 6px;
-  border-color: #444444;
-  border-radius: 200px;
-  background-color: #343444;
-  box-shadow: inset 0px 0px 10px 0px #222222;
-  overflow: hidden;
-}
-
-.circleWrapper {
-  width: 512px;
-  height: 212px;
-  padding: 0px;
-  border-radius: 212px;
-  box-shadow: 0px 0px 10px 0px #000000;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.content {
-  width: 200px;
-  height: 200px;
-  background-color: #ffffff;
-}
-
-/* slide three: twitter causality */
-
-/* slide four: adaptation mess */
-
-.bg_black {
-  position: relative;
-  background-color: #f7f6f2;
-  z-index: 1;
-}
-
-.bg_black::before {    
-  content: "";
-  background-image: url('images/bg/black.png');
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-color: #f7f6f2;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 600px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.blacktitle {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 250px;
-  bottom: 0px;
-}
-
-
-
-.circleBase {
-  border-radius: 50%;
-  position: relative;
-  top: 100px;
-}
-
-.circle1 {
-  width: 200px;
-  height: 200px;
-  background: #4bc475;
-  border: 1px solid #000;
-}
-.circle2 {
-  width: 200px;
-  height: 200px;
-  background: #a1a1a1;
-  border: 1px solid #000;
-}
-.ecology {
-  position: relative;
-  top: 100px;
-  left: 50px;
-}
-
-.evo {
-  position: relative;
-  top: 100px;
-  left: 50px;
-
-
-}
-
-/* slide five: conceptual understanding */
-
-.bg_apple {
-  position: relative;
-  z-index: 1;
-  background-color: #f2f0e7;
-}
-
-.bg_apple::before {    
-  content: "";
-  background-image: url('images/bg/apple.png');
-  background-size: 37%;
-  background-repeat: no-repeat;
-  background-color: #f2f0e7;
-  position: absolute;
-  top: 430px;
-  right: 0px;
-  bottom: 0px;
-  left: 30px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.appletitle {
-  position: absolute;
-  top: -1%;
-  left: 2%;
-}
-
-.apple-footnote {
-  position: absolute;
-  bottom: 0%;
-  right: 1em;
-  font-size: 65%;
-  line-height: 1.3em;
-  font-weight: bolder;
-}
-
-/* slide six: proximate and ultimate */
-
-
-/* slide seven: teleological reasoning and framework */
-
-.bg_straw {
-  position: relative;
-  z-index: 1;
-  background-color: #f7f6f4;
-}
-
-.bg_straw::before {    
-  content: "";
-  background-image: url('images/bg/straw.png');
-  background-size: 95%;
-  background-repeat: no-repeat;
-  background-color: #f7f6f4;
-  position: absolute;
-  top: 480px;
-  right: 0px;
-  bottom: 0px;
-  left: 580px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.bg_01results {
-  background-image: url(images/figs/32-results.png);
-  background-size: 95%;
-  background-repeat: no-repeat;
-}
-
-.bg_02results {
-  background-image: url(images/figs/33-results.png);
-  background-size: 95%;
-  background-repeat: no-repeat;
-}
-
-
-/* slide eight: domain general and specific */
-
-.bg_lemon {
-  position: relative;
-  z-index: 1;
-}
-
-.bg_lemon::before {    
-  content: "";
-  background-image: url('images/bg/lemon.png');
-  background-size: 30%;
-  background-repeat: no-repeat;
-  background-color: #edece7;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.lemontitle {
-  position: absolute;
-  top: -1%;
-  right: 2%;
-}
-
-.lemontext {
-  position: absolute;
-  bottom: 1%;
-  left: 2%;
-  text-align: left;
-}
-
-/* slide nine: its just memorization */
-
-.bg_pear {
-  position: relative;
-  z-index: 1;
-}
-
-.bg_pear::before {    
-  content: "";
-  background-image: url('images/bg/pear.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #eeede9;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.3;
-  z-index: -1;
-}
-
-/* slide ten: how i'd do it */
-
-.bg_pine {
-  position: relative;
-  z-index: 1;
-}
-
-.bg_pine::before {    
-  content: "";
-  background-image: url('images/bg/pine.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #f0efea;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.pinetitle {
-  position: absolute;
-  right: 3%;
-
-}
-
-.pinetext {
-  position: absolute;
-  right: 3%;
-  width: 50%;
-  top: 40%;
-}
-
-.pinetext2 {
-  position: absolute;
-  right: 3%;
-  width: 70%;
-  top: 30%;
-}
-
-
-/* slide eleven: lesson plan */
-
-.bg_2citrus {
-  position: relative;
-  z-index: 1;
-  background-color: #f7f6f4;
-}
-
-.bg_2citrus::before {    
-  content: "";
-  background-image: url('images/bg/2-citrus.png');
-  background-size: 95%;
-  background-repeat: no-repeat;
-  background-color: #f7f6f4;
-  position: absolute;
-  top: 480px;
-  right: 0px;
-  bottom: 0px;
-  left: 580px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.cititle{
-  position: absolute;
-  left: 3%;
-  top: 1%;
-
-}
-
-.citimg {
-  position: absolute;
-  right: 4%;
-  top: 10%;
-}
-
-.citimg + * {
-  clear: both;
-}
-
-
-
-
-
-
-/* slide twelve: CUREs */
-
-.bg_3citrus {
-  position: relative;
-  z-index: 1;
-  background-color: #f7f6f4;
-}
-
-.bg_3citrus::before {    
-  content: "";
-  background-image: url('images/bg/3-citrus.png');
-  background-size: 25%;
-  background-repeat: no-repeat;
-  background-color: #f7f6f4;
-  position: absolute;
-  top: 150px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.cititle2{
-  position: absolute;
-  right: 3%;
-  top: 1%;
-}
-
-.under {
-  text-decoration: underline;
-}
-
-
-/* slide thirteen: data */
-
-.bg_cherries {
-  position: relative;
-  z-index: 1;
-  background-color: #f2f1ef;
-}
-
-.bg_cherries::before {    
-  content: "";
-  background-image: url('images/bg/cherries.png');
-  background-size: 85%;
-  background-repeat: no-repeat;
-  background-color: #f2f1ef;
-  position: absolute;
-  top: 100px;
-  right: 0px;
-  bottom: 0px;
-  left: 700px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.cherrytitle {
-  position: absolute;
-  right: 3%;
-  top: 1%;
-}
-
-/* slide fourteen: inequities */
-
-.bg_pom {
-  position: relative;
-  z-index: 1;
-  background-color: #f2f1ef;
-}
-
-.bg_pom::before {    
-  content: "";
-  background-image: url('images/bg/pom.png');
-  background-size: 85%;
-  background-repeat: no-repeat;
-  background-color: #f2f1ef;
-  position: absolute;
-  top: 470px;
-  right: 0px;
-  bottom: 0px;
-  left: 700px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.pomtitle {
-  position: absolute;
-  left: 3%;
-  top: 0%;
-}
-
-.invis{
-  opacity: 0;
-}
-
-/* slide fifteen: tracking progress */
-
-.bg_plum {
-  position: relative;
-  z-index: 1;
-  background-color: #f2f1ef;
-}
-
-.bg_plum::before {    
-  content: "";
-  background-image: url('images/bg/plum.png');
-  background-size: 35%;
-  background-repeat: no-repeat;
-  background-color: #f2f1ef;
-  position: absolute;
-  top: 130px;
-  right: 250px;
-  bottom: 0px;
-  left: 00px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.plumtitle {
-  position: absolute;
-  right: 3%;
-  top: 0%;
-}
-
-
-/* conclusion slide  */
-
-
-.bg_4citrus {
-  position: relative;
-  z-index: 1;
-  background-color: #f7f6f4;
-}
-
-.bg_4citrus::before {    
-  content: "";
-  background-image: url('images/bg/4-citrus.png');
-  background-size: 53%;
-  background-repeat: no-repeat;
-  background-color: #f7f6f4;
-  position: absolute;
-  top: 10px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-  /* transform: scaleX(-1); */
-}
-
-.pomstext {
-  position: absolute;
-  left: 3%;
-  top: 25%;
-}
-
-.pomstitle {
-  position: absolute;
-  left: 3%;
-  top: 0%;
-}
-
-
-
-.bg_tamarind {
-  position: relative;
-  z-index: 1;
-  background-color: #e8e2d1;
-}
-
-.bg_tamarind::before {    
-      content: "";
-      background-image: url('images/bg/tamarind.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-color: #e8e2d1;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 1;
-      z-index: -1;
-}
-
-.bg_peanut {
-  position: relative;
-  z-index: 1;
-  background-color: #f3ede2;
-}
-
-.bg_peanut::before {    
-      content: "";
-      background-image: url('images/bg/peanut.png');
-      background-size: 35%;
-      background-repeat: no-repeat;
-      background-color: #f3ede2;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 1;
-      z-index: -1;
-}
-
-.bg_ceratonia {
-  position: relative;
-  z-index: 1;
-  background-color: #f6f3ee;
-}
-
-.bg_ceratonia::before {    
-      content: "";
-      background-image: url('images/bg/ceratonia.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-color: #f6f3ee;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 1;
-      z-index: -1;
-}
-
+/* af2c37
+962931 */
 
 
 /*-- LINK STYLING --*/
@@ -906,31 +334,32 @@ a:hover {
 
 /*-- HEADINGS --*/
 .remark-slide-content h1 {
-  color:              #4b6640;
-  font-size:          45px;
+  font-size:          55px;
+  color:              #5c1009;
   line-height:        1em;
+  font-family: 'Creepster', cursive;
 }
 
 .remark-slide-content h2 {
-  font-size:          35px;
-  color:              #a566a1;
+  font-size:          55px;
+  color:              #fc421e;
   line-height:        1em;
-  font-family: Fira;
+  font-family: 'Pirata One', cursive;
 }
 
 .remark-slide-content h3 {
-  font-size:          28px;
-  color:              #dd8073;
+  font-size:          30px;
+  color:              #2c3a21;
   /* f38491 */
   line-height: normal;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Fontdiner Swanky', cursive;
 }
 
 /*-- PARAGRAPH TEXT --*/
 .remark-slide-content {
   font-size:          23px;
   line-height:        1em;
-  font-family: "Charter-Racket", serif;
+  font-family: 'IM Fell English', serif;
   color: #2b2b2b
 }
 
@@ -957,6 +386,7 @@ hr {
   font-size: 65%;
   line-height: 1.3em;
   font-weight: bolder;
+  font-family: 'Fontdiner Swanky', cursive;
 }
 
 .footnote-dark {
@@ -967,6 +397,7 @@ hr {
   line-height: 1.3em;
   color: #FFFFFF;
   font-weight: bolder;
+  font-family: 'Fontdiner Swanky', cursive;
 }
 
 /*-- Slide number --*/
@@ -1084,7 +515,7 @@ blockquote {
 .warmyellow { color:   #FFB81C }
 .gold       { color:   #b0a402;}
 .white      { color: white;}
-#opacity		{ opacity: 0}
+.opacity		{ opacity: 0}
 
 
 
