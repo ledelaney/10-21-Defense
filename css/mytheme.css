@@ -169,12 +169,12 @@ line-height: normal;
 
 .bg_snake::before {    
   content: "";
-  background-image: url('images/bg/snake.png');
+  background-image: url('images/bg/snake2.png');
   background-size: 30%;
   background-color: #ddd1b0;
   background-repeat: no-repeat;
   position: absolute;
-  top: 520px;
+  top: 500px;
   right: 0px;
   bottom: 0px;
   left: 0px;
@@ -529,6 +529,28 @@ line-height: normal;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #d07b2c;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
+
+.bg_cat {
+  position: relative;
+  z-index: 1;
+  background-color: #ddd1b0;
+}
+
+.bg_cat::before {    
+  content: "";
+  background-image: url('images/bg/cat.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ddd1b0;
   position: absolute;
   top: 0px;
   right: 0px;
