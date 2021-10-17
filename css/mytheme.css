@@ -561,6 +561,30 @@ line-height: normal;
 }
 
 
+
+.bg_bat {
+  position: relative;
+  z-index: 1;
+  background-color: #af2c37;
+}
+
+.bg_bat::before {    
+  content: "";
+  background-image: url('images/bg/bat.png');
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-color: #af2c37;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
+
+
 /*-- LINK STYLING --*/
 
 a {
