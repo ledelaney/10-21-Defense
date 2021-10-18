@@ -345,6 +345,35 @@ line-height: normal;
 }
 
 
+/* slide four: mutation and meiosis */
+
+.bg_devil {
+  position: relative;
+  z-index: 1;
+  background-color: #d07b2c;
+}
+
+.bg_devil::before {    
+  content: "";
+  background-image: url('images/bg/devil.png');
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-color: #d07b2c;
+  position: absolute;
+  top: 350px;
+  right: 0px;
+  bottom: 0px;
+  left: 20px;
+  opacity: 1;
+  z-index: -1;
+}
+
+
+.moveimg {
+  position: relative;
+  right: 95px;
+}
+
 
 
 
@@ -378,26 +407,6 @@ line-height: normal;
 
 
 
-.bg_devil {
-  position: relative;
-  z-index: 1;
-  background-color: #d07b2c;
-}
-
-.bg_devil::before {    
-  content: "";
-  background-image: url('images/bg/devil.png');
-  background-size: 22%;
-  background-repeat: no-repeat;
-  background-color: #d07b2c;
-  position: absolute;
-  top: 350px;
-  right: 0px;
-  bottom: 0px;
-  left: 20px;
-  opacity: 1;
-  z-index: -1;
-}
 
 
 .bg_blood {
