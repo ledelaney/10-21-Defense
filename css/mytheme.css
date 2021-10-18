@@ -277,7 +277,7 @@ line-height: normal;
   line-height: 1.3em;
   font-weight: bolder;
   color: #2c3a21;
-  font-family: 'Fontdiner Swanky', cursive;
+  font-family: 'IM Fell English', serif;
 }
 
 .column {
@@ -593,6 +593,30 @@ line-height: normal;
 } */
 
 
+.bg_pumpkin {
+  position: relative;
+  z-index: 1;
+  background-color: #ddd1b0;
+}
+
+.bg_pumpkin::before {    
+  content: "";
+  background-image: url('images/bg/pumpkin.png');
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-color: #ddd1b0;
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
+
+
+
 
 
 
@@ -649,26 +673,6 @@ line-height: normal;
 
 
 
-.bg_pumpkin {
-  position: relative;
-  z-index: 1;
-  background-color: #ddd1b0;
-}
-
-.bg_pumpkin::before {    
-  content: "";
-  background-image: url('images/bg/pumpkin.png');
-  background-size: 25%;
-  background-repeat: no-repeat;
-  background-color: #ddd1b0;
-  position: absolute;
-  top: 200px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
 
 
 .bg_witch {
@@ -680,14 +684,14 @@ line-height: normal;
 .bg_witch::before {    
   content: "";
   background-image: url('images/bg/witch.png');
-  background-size: 25%;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-color: #d07b2c;
   position: absolute;
-  top: 100px;
+  top: 350px;
   right: 0px;
   bottom: 0px;
-  left: 0px;
+  left: 670px;
   opacity: 1;
   z-index: -1;
 }
@@ -741,7 +745,7 @@ line-height: normal;
 .bg_bat {
   position: relative;
   z-index: 1;
-  background-color: #af2c37;
+  background-color: #ddd1b0;
 }
 
 .bg_bat::before {    
@@ -749,7 +753,7 @@ line-height: normal;
   background-image: url('images/bg/bat.png');
   background-size: 35%;
   background-repeat: no-repeat;
-  background-color: #af2c37;
+  background-color: #ddd1b0;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -829,7 +833,7 @@ hr {
   font-size: 65%;
   line-height: 1.3em;
   font-weight: bolder;
-  font-family: 'Fontdiner Swanky', cursive;
+  font-family: 'IM Fell English', serif;
 }
 
 .footnote-dark {
@@ -840,7 +844,7 @@ hr {
   line-height: 1.3em;
   color: #FFFFFF;
   font-weight: bolder;
-  font-family: 'Fontdiner Swanky', cursive;
+  font-family: 'IM Fell English', serif;
 }
 
 /*-- Slide number --*/
