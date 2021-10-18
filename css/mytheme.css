@@ -161,28 +161,84 @@ line-height: normal;
 
 /* slide one: thesis overview */
 
-.bg_snake {
-  position: relative;
-  z-index: 1;
-  background-color: #ddd1b0;
+.chap1 {
+  position: absolute;
+  text-align: right;
+  top: 500px;
+  left: 0px;
+  right: 590px;
+  bottom: 0px;
 }
 
-.bg_snake::before {    
-  content: "";
-  background-image: url('images/bg/snake2.png');
-  background-size: 30%;
-  background-color: #ddd1b0;
-  background-repeat: no-repeat;
+.flag1 {
   position: absolute;
   top: 500px;
-  right: 0px;
-  bottom: 0px;
   left: 0px;
-  opacity: 1;
-  z-index: -1;
+  right: 360px;
+  bottom: 0px;
 }
 
+.chap2 {
+  position: absolute;
+  text-align: right;
+  top: 380px;
+  left: 0px;
+  right: 615px;
+  bottom: 0px;
+}
 
+.flag2 {
+  position: absolute;
+  top: 420px;
+  left: 0px;
+  right: 330px;
+  bottom: 0px;
+}
+
+.reck{
+
+  position: absolute;
+  text-align: right;
+  top: 300px;
+  left: 0px;
+  right: 580px;
+  bottom: 0px;
+
+}
+
+.chap3 {
+  position: absolute;
+  text-align: right;
+  top: 220px;
+  left: 0px;
+  right: 580px;
+  bottom: 0px;
+}
+
+.flag3 {
+  position: absolute;
+  top: 240px;
+  left: 0px;
+  right: 340px;
+  bottom: 0px;
+}
+
+.chap4 {
+  position: absolute;
+  text-align: right;
+  top: 110px;
+  left: 0px;
+  right: 540px;
+  bottom: 0px;
+}
+
+.flag4 {
+  position: absolute;
+  top: 130px;
+  left: 0px;
+  right: 360px;
+  bottom: 0px;
+}
 
 /* slide two: quotes of antiquity */
 
@@ -224,8 +280,25 @@ line-height: normal;
   font-family: 'Fontdiner Swanky', cursive;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+}
 
-/* slide four: difficulties understanding ns */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fishmove {
+  position: relative;
+  right: 276px;
+
+}
+
+/* slide three: difficulties understanding ns */
 
 .bg_skull {
   position: relative;
@@ -248,7 +321,7 @@ line-height: normal;
   z-index: -1;
 }
 
-
+/* slide three: ns overview */
 
 .bg_owls {
   position: relative;
@@ -270,6 +343,40 @@ line-height: normal;
   opacity: 1;
   z-index: -1;
 }
+
+
+
+
+
+.bg_snake {
+  position: relative;
+  z-index: 1;
+  background-color: #ddd1b0;
+}
+
+.bg_snake::before {    
+  content: "";
+  background-image: url('images/bg/snake2.png');
+  background-size: 30%;
+  background-color: #ddd1b0;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 500px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
 
 .bg_devil {
   position: relative;
