@@ -371,9 +371,92 @@ line-height: normal;
 
 .moveimg {
   position: relative;
-  right: 95px;
+  right: 100px;
 }
 
+
+/* slide five: plant sex */
+
+.bg_blood {
+  position: relative;
+  z-index: 1;
+  background-color: #af2c37;
+}
+
+.bg_blood::before {    
+  content: "";
+  background-image: url('images/bg/blood.png');
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-color: #af2c37;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
+.anther {
+  position: relative;
+  top: 200px;
+  left: 75px;
+}
+
+.pistil {
+  position: relative;
+  bottom: 250px;
+  right: 150px;
+}
+
+
+
+/* slide six: why maintaince */
+
+.bg_horse {
+  position: relative;
+  z-index: 1;
+  background-color: #ddd1b0;
+}
+
+.bg_horse::before {    
+  content: "";
+  background-image: url('images/bg/horse-thing.png');
+  background-size: 62%;
+  background-repeat: no-repeat;
+  background-color: #ddd1b0;
+  position: absolute;
+  top: 400px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
+
+
+.bg_tiger {
+  position: relative;
+  z-index: 1;
+  background-color: #d07b2c;
+}
+
+.bg_tiger::before {    
+  content: "";
+  background-image: url('images/bg/crazy-tiger.png');
+  background-size: 42%;
+  background-repeat: no-repeat;
+  background-color: #d07b2c;
+  position: absolute;
+  top: 400px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
 
 
 
@@ -409,48 +492,8 @@ line-height: normal;
 
 
 
-.bg_blood {
-  position: relative;
-  z-index: 1;
-  background-color: #af2c37;
-}
-
-.bg_blood::before {    
-  content: "";
-  background-image: url('images/bg/blood.png');
-  background-size: 22%;
-  background-repeat: no-repeat;
-  background-color: #af2c37;
-  position: absolute;
-  top: -5px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
 
 
-.bg_horse {
-  position: relative;
-  z-index: 1;
-  background-color: #ddd1b0;
-}
-
-.bg_horse::before {    
-  content: "";
-  background-image: url('images/bg/horse-thing.png');
-  background-size: 62%;
-  background-repeat: no-repeat;
-  background-color: #ddd1b0;
-  position: absolute;
-  top: 400px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
 
 
 
@@ -476,26 +519,7 @@ line-height: normal;
 }
 
 
-.bg_tiger {
-  position: relative;
-  z-index: 1;
-  background-color: #d07b2c;
-}
 
-.bg_tiger::before {    
-  content: "";
-  background-image: url('images/bg/crazy-tiger.png');
-  background-size: 42%;
-  background-repeat: no-repeat;
-  background-color: #d07b2c;
-  position: absolute;
-  top: 350px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
 
 
 .bg_creep {
