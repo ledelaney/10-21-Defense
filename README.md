@@ -1,8 +1,10 @@
+# PhD defense spooktacular
+
 ![Skeleton image commissioned from `@unfgio`.](css/images/10-21-defense-card.png)
 
 🎞️ [View Slide Deck](https://ledelaney.org/talks/2021defense/)
 
-🗃️ [View References and Slide Citations]()
+🗃️ [View References and Slide Citations](https://github.com/ledelaney/10-21-Defense/blob/main/references.pdf)
 
 
 ## Slides
@@ -36,6 +38,7 @@ Originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), a
 + [Variety Act 5: The Avenger of His Honor (Varietenummer 5: Der Rächer Seiner Ehre) (1907) by Moriz Jung](https://www.rawpixel.com/image/2942309/free-illustration-image-knife-moriz-jung-blood)
 + [Hippocampus and fish, Fantasy animals (1596–1610) by Anselmus Boëtius de Boodt](https://www.rawpixel.com/image/561824/fantasy-fish-vintage-style)
 + [Special black squid illlustration from Résultats des Campagnes Scientifiques by Albert I, Prince of Monaco](https://www.rawpixel.com/image/547526/vampire-squid-vintage-poster)
++ [Scops Owl in Moonlight by Ohara Koson](https://www.rawpixel.com/image/2438613/free-illustration-image-owl-moon-japanese)
 + [Brown Viper (_Vipera fusca_) from The Natural History of Carolina, Florida, and the Bahama Islands (1754) by Mark Catesby](https://www.rawpixel.com/image/329997/free-illustration-image-snake-animal-mark-catesby)
 + [Flying witch on the broomstick from The Virginians, A Tale Of The Last Century published by Bradbury & Evans (1858)](https://www.rawpixel.com/image/572691/witch-broomstick)
 + [Three girl heads from Songs For Little People illustrated by H. Stratton (1896)](https://www.rawpixel.com/image/573270/creepy-girls-vintage-drawing)
@@ -44,4 +47,4 @@ Originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), a
 + [Flying bat from Woodland Romances; Or, Fables And Fancies by Clara L. Mateaux](https://www.rawpixel.com/image/572603/flying-bat-vintage-drawing)
 + [Kohala Koheiji by Katsushika Hokusai (1760-1849), a traditional Japanese Ukyio-e style illustration of the Japanese legend of a ghost haunting people for revenge](https://www.rawpixel.com/image/426217/free-illustration-image-hokusai-skeletons-death)
 + [Vintage colored octopus illustration wall art print and poster design remix from original artwork](https://www.rawpixel.com/image/547642/octopus-vintage-poster)
-+ [Skeleton of a man from Adventures In The Great Forest Of Equatorial Africa And The Country Of The Dwarfs, illustrations published by J. Murray (1890).](https://www.rawpixel.com/image/572687/skeleton-vintage-drawing)
++ [Memento mori (1916) by Julie de Graag](https://www.rawpixel.com/image/467052/free-illustration-image-skull-death-julie-graag)
