@@ -28,7 +28,7 @@ Originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), a
 + [Spider web white background template vector](https://www.rawpixel.com/image/1204640/happy-halloween-illustration)
 + [Halloween PNG sticker, hand drawn white ghosts and bats doodle](https://www.rawpixel.com/image/3823147/illustration-png-sticker)
 + [Mountain landscape (ca. 1891–1941) drawing by Leo Gestel](https://www.rawpixel.com/image/3043820/free-illustration-image-mountain-leo-gestel)
-+[The anatomy of the horse (1853) print by George Stubbs](https://www.rawpixel.com/image/3819798/illustration-image-art-vintage)
++ [The anatomy of the horse (1853) print by George Stubbs](https://www.rawpixel.com/image/3819798/illustration-image-art-vintage)
 + [Fish creature from Real Sailor-Songs (1891), collected And Edited By J. Ashton](https://www.rawpixel.com/image/572898/fish-creature-vintage-drawing)
 + [Vintage European style animal bone illustration, Mary Francis Cusack (1877)](https://www.rawpixel.com/image/556348/vintage-sheep-skull-illustration)
 + [Owls from Griset's Grotesques (1867) published by Tom Hood](https://www.rawpixel.com/image/573466/scary-owls-vintage-drawing)
