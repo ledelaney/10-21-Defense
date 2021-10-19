@@ -410,6 +410,24 @@ line-height: normal;
   left: 100px;
 }
 
+.gamete1 {
+  position: absolute;
+  top: 140px;
+  right: 0px;
+  bottom: 0px;
+  left: 150px;
+
+}
+
+.gamete2 {
+  position: absolute;
+  top: 140px;
+  right: 0px;
+  bottom: 0px;
+  left: 600px;
+
+}
+
 
 /* slide six: review */
 
@@ -740,6 +758,7 @@ line-height: normal;
 .creeptext {
   position: relative;
   left: 85px;
+  top: 200px
 }
 
 
