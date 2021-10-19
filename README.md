@@ -9,9 +9,19 @@
 
 Libraries and preliminary `HTML` file created with the R package `xaringan`, built on `remark.js`. The rest was (poorly) hard-coded the old-fashioned way.
 
+### Fonts
+
+All fonts come from Google Fonts library.
+
++ [Fontdiner Swanky](https://fonts.google.com/specimen/Fontdiner+Swanky)
++ [Creepster](https://fonts.google.com/specimen/Creepster)
++ [IM Fell English](https://fonts.google.com/specimen/IM+Fell+English)
++ [Norican](https://fonts.google.com/specimen/Norican)
++ [Pirata One](https://fonts.google.com/specimen/Pirata+One)
+
 ### Images
 
-Originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), an incredible resource of public domain images. (Found trawling the GitHub pages of [@apreshill](https://github.com/apreshill).) Many were modified later in Illustrator.
+Originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), an incredible resource of public domain images. (Found trawling the GitHub pages of [@apreshill](https://github.com/apreshill).) Most were modified later in Illustrator.
 
 + Skeleton image commissioned from `@unfgio` on Instagram.
 + [Spider web white background template vector](https://www.rawpixel.com/image/1204640/happy-halloween-illustration)
