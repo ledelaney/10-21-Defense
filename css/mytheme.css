@@ -271,17 +271,6 @@ line-height: normal;
   left: 2%;
 }
 
-.apple-footnote {
-  position: absolute;
-  bottom: 0%;
-  right: 1em;
-  font-size: 65%;
-  line-height: 1.3em;
-  font-weight: bolder;
-  color: #2c3a21;
-  font-family: 'IM Fell English', serif;
-}
-
 
 /* slide three: some more history */
 
@@ -539,6 +528,36 @@ line-height: normal;
   z-index: -1;
 }
 
+/* slide ten: the greatest show on earth */
+
+.bg_moonowl {
+  position: relative;
+  z-index: 1;
+  background-color: #ddd1b0;
+}
+
+.bg_moonowl::before {    
+  content: "";
+  background-image: url('images/bg/moon-owl.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #ddd1b0;
+  position: absolute;
+  top: 90px;
+  right: 490px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+  transform: scaleX(-1);
+}
+
+.moontext {
+  position: relative;
+  top: 240px;
+  left: 220px;
+  width: 75%;
+}
 
 /* slide ten: difficulties */
 
@@ -864,7 +883,7 @@ hr {
 /*-- Footnote --*/
 .footnote-light {
   position: absolute;
-  bottom: 0%;
+  bottom: 1%;
   left: 1em;
   font-size: 65%;
   line-height: 1.3em;
@@ -874,7 +893,7 @@ hr {
 
 .footnote-dark {
   position: absolute;
-  bottom: 0.2em;
+  bottom: 1%;
   left: 2em;
   font-size: 65%;
   line-height: 1.3em;
@@ -882,6 +901,49 @@ hr {
   font-weight: bolder;
   font-family: 'IM Fell English', serif;
 }
+
+.footnote-light-right {
+  position: absolute;
+  bottom: 1%;
+  right: 1em;
+  font-size: 65%;
+  line-height: 1.3em;
+  font-weight: bolder;
+  color: #2c3a21;
+  font-family: 'IM Fell English', serif;
+}
+
+.footnote-high-left {
+  position: absolute;
+  bottom: 7%;
+  left: 1em;
+  font-size: 65%;
+  line-height: 1.3em;
+  font-weight: bolder;
+  font-family: 'IM Fell English', serif;
+}
+
+.footnote-high-right {
+  position: absolute;
+  bottom: 7%;
+  right: 1em;
+  font-size: 65%;
+  line-height: 1.3em;
+  font-weight: bolder;
+  font-family: 'IM Fell English', serif;
+  width: 87%;
+}
+
+.footnote-sortahigh-left {
+  position: absolute;
+  bottom: 3%;
+  left: 1em;
+  font-size: 65%;
+  line-height: 1.3em;
+  font-weight: bolder;
+  font-family: 'IM Fell English', serif;
+}
+
 
 /*-- Slide number --*/
 .remark-slide-number {
