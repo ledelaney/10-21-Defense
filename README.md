@@ -1,4 +1,4 @@
-# PhD defense spooktacular
+# Haunted PhD defense spooktacular
 
 ![Skeleton image commissioned from `@unfgio`.](css/images/10-21-defense-card.png)
 

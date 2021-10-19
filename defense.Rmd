@@ -24,13 +24,13 @@ meta() %>%
   meta_social(
     title = "how do we understand natural selection?",
     description = paste(
-      "Dissertation defense presented at University of Illinois at Chicago, October 2021"
+      "Haunted dissertation defense spooktacular presented at University of Illinois at Chicago, October 2021"
     ),
     url = "https://ledelaney.org/talks/2021ucr/",
     image = "https://ledelaney.org/talks/2021ucr/css/images/08-21-ucr-card.png",
     image_alt = paste(
       "Title slide of how do we understand natural selection?", 
-      "Dissertation defense presented at University of Illinois at Chicago, October 2021", 
+      "Haunted dissertation defense spooktacular presented at University of Illinois at Chicago, October 2021", 
       "by Lucy Delaney"
     ),
     og_type = "website",
