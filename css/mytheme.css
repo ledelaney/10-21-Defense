@@ -87,6 +87,8 @@ line-height: normal;
 
 /*-- BACKGROUNDS AND SPECIFIC SLIDE STYLING --*/
 
+/* figure slides */
+
 .bg_fun {
   position: relative;
   z-index: 1;
@@ -242,20 +244,20 @@ line-height: normal;
 
 /* slide two: quotes of antiquity */
 
-.bg_fish {
+.bg_horse2 {
   position: relative;
   z-index: 1;
   background-color: #ddd1b0;
 }
 
-.bg_fish::before {    
+.bg_horse2::before {    
   content: "";
-  background-image: url('images/bg/fish2.png');
-  background-size: 40%;
+  background-image: url('images/bg/horse.png');
+  background-size: 32%;
   background-repeat: no-repeat;
   background-color: #ddd1b0;
   position: absolute;
-  top: 530px;
+  top: 470px;
   right: 0px;
   bottom: 0px;
   left: 30px;
@@ -280,6 +282,31 @@ line-height: normal;
   font-family: 'IM Fell English', serif;
 }
 
+
+/* slide three: some more history */
+
+
+.bg_fish {
+  position: relative;
+  z-index: 1;
+  background-color: #ddd1b0;
+}
+
+.bg_fish::before {    
+  content: "";
+  background-image: url('images/bg/fish-thing.png');
+  background-size: 63%;
+  background-repeat: no-repeat;
+  background-color: #ddd1b0;
+  position: absolute;
+  top: 415px;
+  right: 0px;
+  bottom: 0px;
+  left: 480px;
+  opacity: 1;
+  z-index: -1;
+}
+
 .column {
   float: left;
   width: 33.33%;
@@ -298,17 +325,18 @@ line-height: normal;
 
 }
 
-/* slide three: difficulties understanding ns */
+
+/* slide four: difficulties understanding ns */
 
 .bg_skull {
   position: relative;
   z-index: 1;
-  /* background-color: #d07b2c; */
+  background-color: #d07b2c;
 }
 
 .bg_skull::before {    
   content: "";
-  background-image: url('images/bg/skull.png');
+  background-image: url('images/bg/skull2.png');
   background-size: 22%;
   background-repeat: no-repeat;
   background-color: #d07b2c;
@@ -321,7 +349,9 @@ line-height: normal;
   z-index: -1;
 }
 
-/* slide three: ns overview */
+
+
+/* slide five: ns overview */
 
 .bg_owls {
   position: relative;
@@ -345,7 +375,7 @@ line-height: normal;
 }
 
 
-/* slide four: mutation and meiosis */
+/* slide five: tinker not create */
 
 .bg_devil {
   position: relative;
@@ -374,8 +404,40 @@ line-height: normal;
   right: 100px;
 }
 
+.locus{
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
 
-/* slide five: plant sex */
+
+/* slide six: review */
+
+
+.bg_creepysnake {
+  position: relative;
+  z-index: 1;
+  background-color: #d07b2c;
+}
+
+.bg_creepysnake::before {    
+  content: "";
+  background-image: url('images/bg/creepy-snake.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #d07b2c;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1;
+}
+
+
+
+/* slide seven: plant sex */
 
 .bg_blood {
   position: relative;
@@ -412,7 +474,7 @@ line-height: normal;
 
 
 
-/* slide six: why maintaince */
+/* slide eight: why maintaince */
 
 .bg_horse {
   position: relative;
@@ -436,37 +498,7 @@ line-height: normal;
 }
 
 
-
-.bg_horse2 {
-  position: relative;
-  z-index: 1;
-  background-color: #ddd1b0;
-}
-
-.bg_horse2::before {    
-  content: "";
-  background-image: url('images/bg/horse.png');
-  background-size: 62%;
-  background-repeat: no-repeat;
-  background-color: #ddd1b0;
-  position: absolute;
-  top: 400px;
-  right: 0px;
-  bottom: 0px;
-  left: 300px;
-  opacity: 1;
-  z-index: -1;
-}
-
-.locus{
-  position: relative;
-  top: 100px;
-  left: 100px;
-}
-
-
-
-
+/* slide nine: the fruit of chance */
 
 .bg_squid {
   position: relative;
@@ -490,7 +522,7 @@ line-height: normal;
 }
 
 
-
+/* slide ten: difficulties */
 
 .bg_snake {
   position: relative;
@@ -513,13 +545,35 @@ line-height: normal;
   z-index: -1;
 }
 
+/* slide eleven: summary */
+
+.bg_witch {
+  position: relative;
+  z-index: 1;
+  background-color: #d07b2c;
+}
+
+.bg_witch::before {    
+  content: "";
+  background-image: url('images/bg/witch.png');
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-color: #d07b2c;
+  position: absolute;
+  top: 350px;
+  right: 0px;
+  bottom: 0px;
+  left: 90px;
+  opacity: 1;
+  z-index: -1;
+}
 
 .snakemove {
   position: relative;
   right: 275px;
 }
 
-
+/* slide twelve: explanation */
 
 .bg_heads {
   position: relative;
@@ -564,12 +618,8 @@ line-height: normal;
   margin-right: auto;
 }
 
-/* .content {
-  width: 200px;
-  height: 200px;
-  background-color: #ffffff;
-} */
 
+/* slide thirteen: bio explanation*/
 
 .bg_pumpkin {
   position: relative;
@@ -592,6 +642,8 @@ line-height: normal;
   z-index: -1;
 }
 
+
+/* slide fourteen: framework */
 
 .bg_tiger {
   position: relative;
@@ -632,6 +684,8 @@ line-height: normal;
 }
 
 
+/* slide fifteen: results */
+
 .bg_bat {
   position: relative;
   z-index: 1;
@@ -660,9 +714,7 @@ line-height: normal;
 }
 
 
-
-
-
+/* slide sixteen: conclusions */
 
 .bg_creep {
   position: relative;
@@ -685,14 +737,13 @@ line-height: normal;
   z-index: -1;
 }
 
+.creeptext {
+  position: relative;
+  left: 85px;
+}
 
 
-
-
-
-
-
-
+/* slide seventeen: thanks! */
 
 .bg_squid2 {
   position: relative;
@@ -715,76 +766,18 @@ line-height: normal;
   z-index: -1;
 }
 
-
-
-
-
-.bg_witch {
+.squidtext {
   position: relative;
-  z-index: 1;
-  background-color: #d07b2c;
+  top: 200px;
 }
 
-.bg_witch::before {    
-  content: "";
-  background-image: url('images/bg/witch.png');
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-color: #d07b2c;
+.thanks {
   position: absolute;
-  top: 350px;
-  right: 0px;
-  bottom: 0px;
-  left: 670px;
-  opacity: 1;
-  z-index: -1;
-}
-
-
-.bg_creepysnake {
-  position: relative;
-  z-index: 1;
-  background-color: #d07b2c;
-}
-
-.bg_creepysnake::before {    
-  content: "";
-  background-image: url('images/bg/creepy-snake.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #d07b2c;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 170px;
+  right: 200px;
   bottom: 0px;
   left: 0px;
-  opacity: 1;
-  z-index: -1;
 }
-
-
-.bg_cat {
-  position: relative;
-  z-index: 1;
-  background-color: #ddd1b0;
-}
-
-.bg_cat::before {    
-  content: "";
-  background-image: url('images/bg/cat.png');
-  background-size: 25%;
-  background-repeat: no-repeat;
-  background-color: #ddd1b0;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
-
-
 
 
 
