@@ -6,7 +6,6 @@
 
 🗃️ [View References and Slide Citations](https://github.com/ledelaney/10-21-Defense/blob/main/references.pdf)
 
-
 ## Slides
 
 Libraries and preliminary `HTML` file created with the R package `xaringan`, built on `remark.js`. The rest was (poorly) hard-coded the old-fashioned way.
