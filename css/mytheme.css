@@ -5,10 +5,14 @@
 .bitlargest { font-size: 300%; line-height: normal; }
 .bitlarger { font-size: 200%; line-height: normal; }
 .large { font-size: 130%; line-height: normal; }
-.midi { font-size: 85% }
+.midi { font-size: 80% }
 .small { font-size: 70% }
 .xsmall { font-size: 60% }
 .tiny { font-size: 50% }
+
+.norican {
+  font-family: 'Norican';
+}
 
 .italic{
 	font-style: italic;
@@ -178,6 +182,7 @@ line-height: normal;
   left: 0px;
   right: 360px;
   bottom: 0px;
+  color: rgb(224, 11, 11);
 }
 
 .chap2 {
@@ -195,6 +200,7 @@ line-height: normal;
   left: 0px;
   right: 330px;
   bottom: 0px;
+  color: rgb(224, 11, 11);
 }
 
 .reck{
@@ -223,6 +229,7 @@ line-height: normal;
   left: 0px;
   right: 340px;
   bottom: 0px;
+  color: rgb(224, 11, 11);
 }
 
 .chap4 {
@@ -240,6 +247,7 @@ line-height: normal;
   left: 0px;
   right: 360px;
   bottom: 0px;
+  color: rgb(224, 11, 11);
 }
 
 /* slide two: quotes of antiquity */
