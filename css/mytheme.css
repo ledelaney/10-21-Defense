@@ -143,6 +143,10 @@ line-height: normal;
   width: 140%;
 }
 
+.lil {
+  font-size: 53px;
+}
+
 .id {
   position: absolute;
   bottom: 40%;
@@ -154,7 +158,6 @@ line-height: normal;
   position: absolute;
   top: -10px;
   left: 30px;
-
 }
 
 .pull-bottom {
