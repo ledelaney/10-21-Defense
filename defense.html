@@ -191,7 +191,9 @@ class: center, top, bg_fun
 <br>
 <br>
 <br>
-<h1><span style="opacity: 0.5;">everything existing in the universe is </span>the fruit of <span style="opacity: 0.5;">chance and</span> necessity</h1>
+<h1>
+.opaque[everything existing in the universe is] the fruit of 
+.opaque[chance and] necessity</h1>
 
 .footnote-light[
 Monod, 1971]
@@ -1274,12 +1276,13 @@ class: middle, left, bg_squid
 ```r
 coin.flip &lt;&ndash; function(n){
 
-  flips &lt;&ndash; rbinom(n = n, size = 1, prob = 0.5)
+  flips &lt;&ndash; sample(c("Heads", "Tails"), 
+                    n, 
+                    replace = TRUE, 
+                    prob = c(0.5, 0.5))
 
-  outcome &lt;&ndash; ifelse(flips == 1, yes = "Heads", no = "Tails")
-   
-  table(outcome) / n %>%
-  return()
+  table(flip) %>%
+    return()
 
 }
 ```
@@ -1293,9 +1296,9 @@ coin.flip(n = 10)
 --
 
 ``` 
- ## outcome
+ ## flips
  ## Heads Tails 
- ##  0.2  0.8
+ ##    2    8
 ```
 
 --
@@ -1305,9 +1308,9 @@ coin.flip(n = 100)
 ```
 
 ```
- ## outcome
+ ## flips
  ## Heads  Tails 
- ## 0.57   0.44
+ ##   57     44
 ```
 ---
 class: middle, left, bg_squid
@@ -1320,9 +1323,9 @@ coin.flip(n = 10000)
 --
 
 ```
- ## outcome
+ ## flips
  ##  Heads  Tails 
- ## 0.4936 0.5064
+ ##   4936   5064
 ```
 
 --
@@ -1332,9 +1335,9 @@ coin.flip(n = 1000000)
 --
 
 ```
- ## outcome
+ ## flips
  ##  Heads     Tails 
- ## 0.499726  0.500274
+ ##   499726    500274
 ```
 
 ---
@@ -1373,6 +1376,8 @@ class: top, center, bg_squid
 ---
 class: top, right, bg_moonowl
 
+--
+
 .moonquote[
 <blockquote>
 Science is built up of facts, as a house is built of stones; but an accumulation of facts is no more a science than a heap of stones is a house.
@@ -1380,7 +1385,8 @@ Science is built up of facts, as a house is built of stones; but an accumulation
 
 .opacity[
 .moontext[
-<h1 style="font-family: Norican;">Facts without context are meaningless!</h1>]]
+<h1>
+.norican[Facts without context are meaningless!]</h1>]]
 
 
 
@@ -1397,7 +1403,8 @@ Science is built up of facts, as a house is built of stones; but an accumulation
 
 
 .moontext[
-<h1 style="font-family: Norican;">Facts without context are meaningless!</h1>]
+<h1>
+.norican[Facts without context are meaningless!]s</h1>]
 
 .footnote-light-right[
 Poincaré, 1905; Heath &amp; Heath, 2007]
@@ -1491,7 +1498,8 @@ class: top, right, bg_witch
 
 .stretch[
 .snakemove[
-<h1>complex overlapping processes &nbsp;<span style="font-size: 80%;"><i class="fad fa-hockey-mask"></i></span></h1>]]
+<h1>complex overlapping processes &nbsp;
+.midi[<i class="fad fa-hockey-mask"></i>]</h1>]]
 
 
 ---
@@ -1502,9 +1510,11 @@ class: top, right, bg_witch
 .stretch[
 .snakemove[
 .opaque[
-<h1>complex overlapping processes &nbsp;<span style="font-size: 80%;"><i class="fad fa-hockey-mask"></i></span></h1>]]]
+<h1>complex overlapping processes &nbsp;
+.midi[<i class="fad fa-hockey-mask"></i>]</h1>]]]
 
-<h1>integrating knowledge &nbsp;<span style="font-size: 80%;"><i class="fad fa-hockey-mask"></i></span></h1>
+<h1>integrating knowledge &nbsp;
+.midi[<i class="fad fa-hockey-mask"></i>]</h1>
 
 
 ---
@@ -1515,12 +1525,15 @@ class: top, right, bg_witch
 .stretch[
 .snakemove[
 .opaque[
-<h1>complex overlapping processes &nbsp;<span style="font-size: 80%;"><i class="fad fa-hockey-mask"></i></span></h1>]]]
+<h1>complex overlapping processes &nbsp;
+.midi[<i class="fad fa-hockey-mask"></i>]</h1>]]]
 
 .opaque[
-<h1>integrating knowledge &nbsp;<span style="font-size: 80%;"><i class="fad fa-hockey-mask"></i></span></h1>]
+<h1>integrating knowledge &nbsp;
+.midi[<i class="fad fa-hockey-mask"></i>]</h1>]
 
-<h1>counter-intuitive &nbsp;<span style="font-size: 80%;"><i class="fad fa-hockey-mask"></i></span></h1>
+<h1>counter-intuitive &nbsp;
+.midi[<i class="fad fa-hockey-mask"></i>]</h1>
 
 
 ---
@@ -1903,7 +1916,8 @@ class: middle, right, bg_squid2
 
 .thanks[
 .bitlargest[
-<h1 style="font-family: Norican;"><i class="fab fa-github"></i> @ledelaney<br><br>Thank you!</h1>]]
+<h1><i class="fab fa-github"></i> 
+.norican[ @ledelaney<br><br>Thank you!]</h1>]]
 
 .squidtext[
 <h2>everything existing in the universe is the fruit of chance and necessity</h2>]
