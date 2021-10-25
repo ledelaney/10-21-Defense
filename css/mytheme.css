@@ -87,7 +87,9 @@ line-height: normal;
 
 .pull-right-low + * { clear: both; }
 
-
+/* ul {
+  list-style-type: none;
+} */
 
 /*-- BACKGROUNDS AND SPECIFIC SLIDE STYLING --*/
 
