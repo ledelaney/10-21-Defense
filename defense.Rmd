@@ -26,8 +26,8 @@ meta() %>%
     description = paste(
       "Haunted dissertation defense spooktacular presented at University of Illinois at Chicago, October 2021"
     ),
-    url = "https://ledelaney.org/talks/2021ucr/",
-    image = "https://ledelaney.org/talks/2021ucr/css/images/08-21-ucr-card.png",
+    url = "https://ledelaney.org/talks/2021defense/",
+    image = "https://ledelaney.org/talks/2021defense/css/images/10-21-defense-card.png",
     image_alt = paste(
       "Title slide of how do we understand natural selection?", 
       "Haunted dissertation defense spooktacular presented at University of Illinois at Chicago, October 2021", 
