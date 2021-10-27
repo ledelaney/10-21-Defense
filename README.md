@@ -2,7 +2,7 @@
 
 ![Skeleton image commissioned from `@unfgio`.](css/images/10-21-defense-card.png)
 
-🎞️ [View Slide Deck](https://ledelaney.org/talks/2021defense/)
+🎞️ [View Slide Deck](https://ledelaney.org/talks/2021defense/) (_Looks best on a desktop browser!_)
 
 🗃️ [View References and Slide Citations](https://github.com/ledelaney/10-21-Defense/blob/main/references.pdf)
 
