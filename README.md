@@ -24,7 +24,7 @@ All fonts come from Google Fonts library.
 
 Originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), an incredible resource of public domain images. (Found trawling the GitHub pages of [@apreshill](https://github.com/apreshill).) Most were modified later in Illustrator.
 
-+ Skeleton image commissioned from `@unfgio` on Instagram.
++ Skeleton image commissioned from `@ungfio` on Instagram.
 + [Spider web white background template vector](https://www.rawpixel.com/image/1204640/happy-halloween-illustration)
 + [Halloween PNG sticker, hand drawn white ghosts and bats doodle](https://www.rawpixel.com/image/3823147/illustration-png-sticker)
 + [Mountain landscape (ca. 1891–1941) drawing by Leo Gestel](https://www.rawpixel.com/image/3043820/free-illustration-image-mountain-leo-gestel)
